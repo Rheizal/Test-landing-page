@@ -1,0 +1,303 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #F5E6D3;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo-icon {
+    font-size: 24px;
+}
+
+.logo-text {
+    color: #000;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #4A90E2;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-subscribe {
+    background-color: #7CB3D9;
+    color: white;
+}
+
+.btn-subscribe:hover {
+    background-color: #6A9FBF;
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: #1A3A52;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #132A3C;
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    background-color: #F5E6D3;
+    padding: 60px 20px;
+}
+
+.hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.2;
+}
+
+.hero-description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Donation Section */
+.donation-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.donation-label {
+    font-weight: 600;
+    color: #000;
+}
+
+.donation-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-donation-type {
+    flex: 1;
+    padding: 12px 20px;
+    border: 2px solid #D4A5A5;
+    background-color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #333;
+    transition: all 0.3s;
+}
+
+.btn-donation-type:hover {
+    background-color: #E8D4D4;
+}
+
+.btn-donation-type.active {
+    background-color: #E8D4D4;
+    border-color: #D4A5A5;
+}
+
+/* Donation Amounts Grid */
+.donation-amounts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.btn-amount {
+    padding: 15px 20px;
+    border: 2px solid #D4A5A5;
+    background-color: #F5D4D4;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    transition: all 0.3s;
+}
+
+.btn-amount:hover {
+    background-color: #E8C0C0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* CTA Button */
+.btn-cta {
+    background-color: #FFC107;
+    color: #000;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 25px;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.btn-cta:hover {
+    background-color: #FFB800;
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
+}
+
+/* Social Section */
+.social-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-text {
+    font-weight: 500;
+    color: #333;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Hero Image */
+.hero-image {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .header-container {
+        justify-content: space-between;
+    }
+
+    .donation-amounts {
+        grid-template-columns: 1fr;
+    }
+
+    .donation-buttons {
+        flex-direction: column;
+    }
+
+    .btn-donation-type {
+        width: 100%;
+    }
+
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .hero-content {
+        gap: 20px;
+    }
+}
