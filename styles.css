@@ -13,7 +13,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #F5E6D3;
+    background-color: #FFF7E1;
     padding: 20px 0;
     position: sticky;
     top: 0;
@@ -58,7 +58,7 @@ header {
 }
 
 .navbar a:hover {
-    color: #4A90E2;
+    color: #77A8BB;
 }
 
 .header-buttons {
@@ -78,28 +78,28 @@ header {
 }
 
 .btn-subscribe {
-    background-color: #7CB3D9;
+    background-color: #77A8BB;
     color: white;
 }
 
 .btn-subscribe:hover {
-    background-color: #6A9FBF;
+    background-color: #77A8BB;
     transform: scale(1.05);
 }
 
 .btn-primary {
-    background-color: #1A3A52;
+    background-color: #003366;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #132A3C;
+    background-color: #003366;
     transform: scale(1.05);
 }
 
 /* Hero Section */
 .hero {
-    background-color: #F5E6D3;
+    background-color: #FFF7E1;
     padding: 60px 20px;
 }
 
@@ -151,7 +151,7 @@ h1 {
 .btn-donation-type {
     flex: 1;
     padding: 12px 20px;
-    border: 2px solid #D4A5A5;
+    border: 2px solid #FFF7E1;
     background-color: transparent;
     border-radius: 8px;
     cursor: pointer;
@@ -161,12 +161,12 @@ h1 {
 }
 
 .btn-donation-type:hover {
-    background-color: #E8D4D4;
+    background-color: #FFF7E1;
 }
 
 .btn-donation-type.active {
-    background-color: #E8D4D4;
-    border-color: #D4A5A5;
+    background-color: #FFF7E1;
+    border-color: #FFF7E1;
 }
 
 /* Donation Amounts Grid */
@@ -178,8 +178,8 @@ h1 {
 
 .btn-amount {
     padding: 15px 20px;
-    border: 2px solid #D4A5A5;
-    background-color: #F5D4D4;
+    border: 2px solid #FFF7E1;
+    background-color: #FFF7E1;
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
@@ -189,14 +189,14 @@ h1 {
 }
 
 .btn-amount:hover {
-    background-color: #E8C0C0;
+    background-color: #FFF7E1;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* CTA Button */
 .btn-cta {
-    background-color: #FFC107;
+    background-color: #FFC907;
     color: #000;
     padding: 15px 40px;
     font-size: 16px;
@@ -207,7 +207,7 @@ h1 {
 }
 
 .btn-cta:hover {
-    background-color: #FFB800;
+    background-color: #FFC907;
     transform: scale(1.02);
     box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
 }
@@ -236,7 +236,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #007BFF;
+    background-color: #003366;
     color: white;
     border-radius: 50%;
     text-decoration: none;
