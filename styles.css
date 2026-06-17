@@ -151,7 +151,7 @@ h1 {
 .btn-donation-type {
     flex: 1;
     padding: 12px 20px;
-    border: 2px solid #FFF7E1;
+    border: 2px solid #003366;
     background-color: transparent;
     border-radius: 8px;
     cursor: pointer;
@@ -166,7 +166,7 @@ h1 {
 
 .btn-donation-type.active {
     background-color: #FFF7E1;
-    border-color: #FFF7E1;
+    border-color: #003366;
 }
 
 /* Donation Amounts Grid */
@@ -178,7 +178,7 @@ h1 {
 
 .btn-amount {
     padding: 15px 20px;
-    border: 2px solid #FFF7E1;
+    border: 2px solid #003366;
     background-color: #FFF7E1;
     border-radius: 12px;
     cursor: pointer;
