@@ -30,6 +30,21 @@ header {
 }
 
 .logo {
+    flex-shrink: 0;  /* Prevents logo from shrinking */
+}
+
+.logo img {
+    max-width: 240px;  /* Limits logo width */
+    height: auto;      /* Maintains aspect ratio */
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        max-width: 80px;  /* Smaller on mobile */
+    }
+}
+
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
